@@ -9,7 +9,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^https?:\/\/app\.yd6666\.me url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/ybd.js
+^https?:\/\/app\.yd6666\.me url script-response-body https://github.com/fishenjoy/QxJs/blob/main/ybd.js
 [mitm] 
 hostname = *.*.*
 

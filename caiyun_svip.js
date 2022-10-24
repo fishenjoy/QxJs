@@ -5,7 +5,7 @@
  * 
  * Quantumult X
  * [rewrite_local]
- * ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/caiyun_svip.js
+ * ^https?:\/\/biz\.caiyunapp\.com\/(membership_rights|v2\/user) url script-response-body https://github.com/fishenjoy/QxJs/blob/main/caiyun_svip.js
  *
  * 
  * 

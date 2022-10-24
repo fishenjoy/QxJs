@@ -2,7 +2,7 @@
 圈X:
 #Gear解锁会员永久
 [rewrite_local]
-^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/gear.js
+^https\:\/\/api.revenuecat.com\/v1\/subscribers(.+) url script-response-body https://github.com/fishenjoy/QxJs/blob/main/gear.js
 [mitm]
 hostname = api.revenuecat.com,
 */

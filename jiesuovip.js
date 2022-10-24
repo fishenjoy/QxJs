@@ -5,7 +5,7 @@
 
 *******************************
 [rewrite_local]
-^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/jiesuovip.js
+^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://github.com/fishenjoy/QxJs/blob/main/jiesuovip.js
 [mitm] 
 hostname = buy.itunes.apple.com
 *******************************/

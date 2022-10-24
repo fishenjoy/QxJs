@@ -8,7 +8,7 @@ app下载地址：商店搜索：看漫画
 群1077223830
 *******************************
 [rewrite_local]
-^https?:\/\/api-cdn\.321mh\.com\/comic-api\/v2  url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/kmh.js
+^https?:\/\/api-cdn\.321mh\.com\/comic-api\/v2  url script-response-body https://github.com/fishenjoy/QxJs/blob/main/kmh.js
 [mitm] 
 hostname = *.*.*
 

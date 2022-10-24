@@ -3,7 +3,7 @@
 Author：@ddgksf2013
 APP：B612咔叽
 [rewrite_local]
-^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/b612.js
+^https:\/\/user-kaji-api\.b612kaji\.com\/v1\/purchase\/subscription\/subscriber\/status url script-response-body https://github.com/fishenjoy/QxJs/blob/main/b612.js
 [mitm] 
 hostname = user-kaji-api.b612kaji.com
 */

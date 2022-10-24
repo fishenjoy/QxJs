@@ -6,7 +6,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^http:\/\/iosv2\.cjapi\.wufan88\.com  url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/wf.js
+^http:\/\/iosv2\.cjapi\.wufan88\.com  url script-response-body https://github.com/fishenjoy/QxJs/blob/main/wf.js
 [mitm] 
 hostname = iosv2.cjapi.wufan88.com
 

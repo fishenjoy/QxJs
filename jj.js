@@ -2,7 +2,7 @@
 歪比歪比
 
 #  [rewrite_local] 
- ^https:\/\/api\.sortedapp\.com\/receipts url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/jj.js 
+ ^https:\/\/api\.sortedapp\.com\/receipts url script-response-body https://github.com/fishenjoy/QxJs/blob/main/jj.js 
 # [mitm]  
  hostname = api.sortedapp.com 
  */

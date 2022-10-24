@@ -11,7 +11,7 @@
 
 [rewrite_local]
 
-^https:\/\/api\.vistopia\.com\.cn url script-request-header https://raw.githubusercontent.com/hhse/Mul4hong/master/klx.js
+^https:\/\/api\.vistopia\.com\.cn url script-request-header https://github.com/fishenjoy/QxJs/blob/main/klx.js
 
 [mitm] 
 

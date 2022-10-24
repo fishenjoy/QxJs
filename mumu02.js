@@ -6,7 +6,7 @@
 群1077223830
 *******************************
 [rewrite_local]
-^https:\/\/uu\.tuanyougou\.com\/\/video url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/mumu02.js
+^https:\/\/uu\.tuanyougou\.com\/\/video url script-response-body https://github.com/fishenjoy/QxJs/blob/main/mumu02.js
 [mitm] 
 hostname = uu.tuanyougou.com
 

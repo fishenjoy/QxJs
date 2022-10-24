@@ -2,7 +2,7 @@
 
 美颜相机
 [rewrite_local]
-^https:\/\/api\.meiyan\.com url script-response-body https://raw.githubusercontent.com/hhse/Mul4hong/master/myxj.js
+^https:\/\/api\.meiyan\.com url script-response-body https://github.com/fishenjoy/QxJs/blob/main/myxj.js
 [mitm] 
 hostname = api.meiyan.com
 
