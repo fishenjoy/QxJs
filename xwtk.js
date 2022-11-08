@@ -8,12 +8,8 @@ hostname = tcb-api.tencentcloudapi.com
 //hostname :tcb-api.tencentcloudapi.com
 //重写链接：^https:\/\/tcb-api\.tencentcloudapi\.com\/web
 */
-let obj = JSON.parse($response.body);
- obj.data.vip_expire_time = 1999999999999;
- obj.data.isVip = true;
- obj.data.isAdmin = true;
- 
- $done({
- body: JSON.stringify(obj)
-}
-);
+var body=$response.body;
+body = body.replace(/"vip_expire_time\\\":\d+/g,'"vip_expire_time\\":1999999999999');
+body = body.replace(/"isVip\\\":\w+/g,'"isVip\\":true');
+body = body.replace(/"isAdmin\\\":\w+/g,'"isAdmin\\":true');
+$done(body);
