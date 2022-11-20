@@ -1,13 +1,12 @@
 /*
 蜗牛读书
 */
-ar body=$response.body;
-body = body.replace(/"vip_expire_time\\\":\d+/g,'"vip_expire_time\\":1999999999999');
-body = body.replace(/"isVip\\\":\w+/g,'"isVip\\":true');
-body = body.replace(/"isAdmin\\\":\w+/g,'"isAdmin\\":true');
-$done(body);
+var body = $response.body;
 
-ody = body.replace(/"vip_expire_time\\\":\d+/g,'"vip_expire_time\\":1999999999999');
-body = body.replace(/"isVip\\\":\w+/g,'"isVip\\":true');
-body = body.replace(/"isAdmin\\\":\w+/g,'"isAdmin\\":true');
-$done(body);
+var obj = JSON.parse(body);
+
+obj.tradeEndTime = 4102487972000;
+
+body = JSON.stringify(obj);
+
+$done({body})
