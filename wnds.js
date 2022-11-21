@@ -1,12 +1,5 @@
 /*
 蜗牛读书
 */
-var body = $response.body;
-
-var obj = JSON.parse(body);
-
-obj.tradeEndTime = 4102487972000;
-
-body = JSON.stringify(obj);
-
-$done({body})
+body = $response.body.replace("tradeEndTime":\d+, "tradeEndTime":4444444444444)
+$done({body});
