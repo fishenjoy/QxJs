@@ -5,8 +5,8 @@
 */
 let obj = JSON.parse($response.body);
  obj.data.flag = true;
- obj.data.end_time = 4092599349;
- obj.data.vip_real_end = 4092599349;
+ obj.data.end_time = 8092599349;
+ obj.data.vip_real_end = 8092599349;
 obj.data.is_first_subscribe = true;
 obj.data.is_cancel_subscribe = false;
  $done({
